@@ -15,8 +15,9 @@ Under the fun, it does the usual invitation jobs: tells people when and where, s
     <img src="docs/demo/poster.png" alt="iPhone wedding invitation demo: an iPhone home screen with wedding widgets" width="860">
   </a>
   <br>
-  <sub>▶ <a href="docs/demo/demo.mp4">Watch the demo</a> · <a href="docs/demo/apps.mp4">and the rest of the apps</a></sub>
 </p>
+
+https://github.com/user-attachments/assets/7df48880-b32b-4f9e-b8db-c819a7d22c68
 
 ## What it's for
 
