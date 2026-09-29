@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
 
-    <title>iPhone Wedding Invitation — Trí &amp; Như</title>
-    <meta name="description" content="A wedding invitation website disguised as an iPhone. Unlock the lock screen, open the apps: RSVP in Safari, the date in Calendar, the venue in Maps, the album in Photos. Open source." />
+    <title>iPhone Wedding Invitation · Open-Source Wedding Website</title>
+    <meta name="description" content="A wedding invitation website that looks like an iPhone: guests unlock it, RSVP in Safari, see the date in Calendar and the album in Photos. Free, open source." />
     <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="nguyenhuugiatri" />
     <link rel="canonical" href="https://iphone-wedding-invitation.vercel.app/" />
 
     <!-- Icons -->
@@ -24,41 +25,102 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="vi_VN" />
     <meta property="og:site_name" content="iPhone Wedding Invitation" />
-    <meta property="og:title" content="iPhone Wedding Invitation — Trí &amp; Như" />
-    <meta property="og:description" content="A wedding invitation website disguised as an iPhone. Unlock the lock screen, open the apps: RSVP in Safari, the date in Calendar, the venue in Maps, the album in Photos. Open source." />
+    <meta property="og:title" content="iPhone Wedding Invitation · Open-Source Wedding Website" />
+    <meta property="og:description" content="A wedding invitation website that looks like an iPhone: guests unlock it, RSVP in Safari, see the date in Calendar and the album in Photos. Free, open source." />
     <meta property="og:url" content="https://iphone-wedding-invitation.vercel.app/" />
     <meta property="og:image" content="https://iphone-wedding-invitation.vercel.app/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="A bride and groom in a garden" />
+    <meta property="og:image:alt" content="iPhone Wedding Invitation: a lock screen and a home screen with wedding widgets" />
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="iPhone Wedding Invitation — Trí &amp; Như" />
-    <meta name="twitter:description" content="A wedding invitation website disguised as an iPhone. Unlock the lock screen, open the apps: RSVP in Safari, the date in Calendar, the venue in Maps, the album in Photos. Open source." />
+    <meta name="twitter:title" content="iPhone Wedding Invitation · Open-Source Wedding Website" />
+    <meta name="twitter:description" content="A wedding invitation website that looks like an iPhone: guests unlock it, RSVP in Safari, see the date in Calendar and the album in Photos. Free, open source." />
     <meta name="twitter:image" content="https://iphone-wedding-invitation.vercel.app/og-image.jpg" />
+    <meta name="twitter:image:alt" content="iPhone Wedding Invitation: a lock screen and a home screen with wedding widgets" />
 
     <!-- Structured data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "iPhone Wedding Invitation",
-        "description": "A wedding invitation website disguised as an iPhone, with RSVP, calendar, map, photo album and music.",
-        "url": "https://iphone-wedding-invitation.vercel.app/",
-        "applicationCategory": "LifestyleApplication",
-        "operatingSystem": "Any",
-        "inLanguage": "vi",
-        "isAccessibleForFree": true,
-        "author": { "@type": "Person", "name": "nguyenhuugiatri", "url": "https://github.com/nguyenhuugiatri" },
-        "sameAs": ["https://github.com/nguyenhuugiatri/iphone-wedding-invitation"]
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iphone-wedding-invitation.vercel.app/#website",
+            "url": "https://iphone-wedding-invitation.vercel.app/",
+            "name": "iPhone Wedding Invitation",
+            "inLanguage": "vi"
+          },
+          {
+            "@type": "WebApplication",
+            "name": "iPhone Wedding Invitation",
+            "url": "https://iphone-wedding-invitation.vercel.app/",
+            "description": "A wedding invitation website that looks and works like an iPhone, with RSVP, calendar, map, photo album and music.",
+            "image": "https://iphone-wedding-invitation.vercel.app/og-image.jpg",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Any",
+            "browserRequirements": "Requires JavaScript",
+            "isAccessibleForFree": true,
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "author": { "@type": "Person", "name": "nguyenhuugiatri", "url": "https://github.com/nguyenhuugiatri" }
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "name": "iphone-wedding-invitation",
+            "description": "Open-source template for an iPhone-style wedding invitation website, built with React, Vite and Framer Motion.",
+            "codeRepository": "https://github.com/nguyenhuugiatri/iphone-wedding-invitation",
+            "programmingLanguage": ["TypeScript", "React"],
+            "license": "https://opensource.org/licenses/MIT",
+            "author": { "@type": "Person", "name": "nguyenhuugiatri", "url": "https://github.com/nguyenhuugiatri" }
+          }
+        ]
       }
     </script>
+
+    <!-- Crawlable intro beside the phone frame on wide desktops; phones never see it. -->
+    <style>
+      .site-info { display: none; }
+      @media (min-width: 1180px) {
+        .site-info {
+          display: block;
+          position: fixed;
+          left: 40px;
+          bottom: 36px;
+          max-width: 300px;
+          font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+          color: rgba(255, 255, 255, 0.55);
+          -webkit-font-smoothing: antialiased;
+        }
+        .site-info h1 {
+          margin: 0 0 6px;
+          font-size: 17px;
+          font-weight: 600;
+          letter-spacing: -0.01em;
+          color: rgba(255, 255, 255, 0.9);
+        }
+        .site-info p { margin: 0 0 6px; }
+        .site-info a {
+          color: rgba(255, 255, 255, 0.85);
+          font-weight: 500;
+          text-decoration: none;
+          transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .site-info a:hover { opacity: 0.7; }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <aside class="site-info" lang="en">
+      <h1>iPhone Wedding Invitation</h1>
+      <p>A wedding invitation website disguised as an iPhone. Unlock it, then RSVP in Safari, check the date in Calendar, find the venue in Maps and browse the album in Photos.</p>
+      <p lang="vi">Thiệp cưới online giao diện iPhone, mã nguồn mở và miễn phí.</p>
+      <a href="https://github.com/nguyenhuugiatri/iphone-wedding-invitation">Make your own on GitHub →</a>
+    </aside>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

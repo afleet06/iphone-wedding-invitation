@@ -4,7 +4,7 @@
 
 We (Trí & Như) got married in June 2026. Instead of sending a PDF card, we sent our guests a link. It opens on a lock screen with a photo and a wedding playlist ready to play. Unlock it and you get a home screen full of apps that actually open.
 
-Under the fun, it does the usual invitation jobs: tells people when and where, shows off the photos, and gets everyone to RSVP. This repo is that invitation, with our photos and texts swapped for samples so you can make it yours.
+Under the fun, it does the usual invitation jobs: tells people when and where, shows off the photos, and gets everyone to RSVP. This repo is that invitation as a free, open-source template. Our photos and texts are swapped for samples, so you can drop in your own and have your digital wedding invitation live on Vercel in a few minutes.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnguyenhuugiatri%2Fiphone-wedding-invitation&project-name=iphone-wedding-invitation&repository-name=iphone-wedding-invitation)
 
@@ -18,6 +18,12 @@ Under the fun, it does the usual invitation jobs: tells people when and where, s
 </p>
 
 https://github.com/user-attachments/assets/7df48880-b32b-4f9e-b8db-c819a7d22c68
+
+## Tiếng Việt
+
+**Thiệp cưới online giao diện iPhone**, mã nguồn mở và miễn phí. Khách mở link thiệp là thấy màn hình khoá với ảnh cưới và playlist nhạc cưới. Mở khoá ra là màn hình chính với các app bấm vào được: xác nhận tham dự qua Google Form trong Safari, ngày giờ trong Lịch, chỉ đường trong Bản đồ, album ảnh cưới trong Ảnh và mã QR mừng cưới trong Ví.
+
+Muốn làm thiệp cưới điện tử cho đám cưới của mình: fork repo, thay ảnh và thông tin trong vài file (xem [Make it yours](#make-it-yours)), rồi deploy miễn phí lên Vercel bằng nút ở trên. Giao diện đã sẵn tiếng Việt.
 
 ## What it's for
 
@@ -77,7 +83,7 @@ Everything personal lives in a handful of files:
 
 | What | Where |
 | --- | --- |
-| Names, date, event times | [`components/calendarData.ts`](components/calendarData.ts), [`src/NotesPage.tsx`](src/NotesPage.tsx), [`src/WalletPage.tsx`](src/WalletPage.tsx), [`index.html`](index.html) (title and share tags) |
+| Names, date, event times | [`components/calendarData.ts`](components/calendarData.ts), [`src/NotesPage.tsx`](src/NotesPage.tsx), [`src/WalletPage.tsx`](src/WalletPage.tsx), [`index.html`](index.html) (title, share tags and the short intro shown beside the phone on wide screens) |
 | Venue and map link | [`lib/maps.ts`](lib/maps.ts), [`components/calendarData.ts`](components/calendarData.ts) |
 | Wallpapers | `public/wallpaper-lock.jpeg` (lock screen), `public/wallpaper-home.jpeg` (home screen) |
 | Widget photos | `public/profile.jpeg` (Maps widget), `public/reading-list.jpeg` (Reading List widget) |
@@ -86,7 +92,7 @@ Everything personal lives in a handful of files:
 | RSVP form | [`scripts/wedding-form.gs`](scripts/wedding-form.gs), `HOME` in [`src/SafariPage.tsx`](src/SafariPage.tsx) |
 | Gift QR | `public/gift-qr.png` (the sample just links to this repo) |
 | Chat and call log | [`src/MessagesPage.tsx`](src/MessagesPage.tsx), [`src/PhonePage.tsx`](src/PhonePage.tsx) |
-| Share image and icons | `pnpm gen:meta` rebuilds `og-image.jpg` from the home wallpaper, and the favicons from `public/favicon.svg` |
+| Share image and icons | `pnpm gen:meta` rebuilds `og-image.jpg` from the home wallpaper (replacing the demo's designed one), and the favicons from `public/favicon.svg` |
 
 Keep photos around 1600 px on the long edge. Nothing resizes them for you, and guests are on mobile data.
 
