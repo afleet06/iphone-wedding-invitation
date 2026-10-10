@@ -245,12 +245,12 @@ export default function NotesPage() {
         style={{ color: GLYPH }}
       >
         <h1 className="text-[28px] font-bold leading-tight tracking-tight">
-          Lễ Tân Hôn — Trí &amp; Như
+          Enlace Matrimonial — aby &paskis
         </h1>
 
         <div className="mt-4 space-y-1.5">
-          <p>📅 Chủ nhật, 14/06/2026 — 🕠 17h30</p>
-          <p>📍 AZ Luxury Garden, 123 Tôn Đức Thắng, La Gi, Lâm Đồng</p>
+          <p>📅 Chihuas, 22/11/2026 — 🕠 17h30</p>
+          <p>📍 palma real</p>
           <p>
             🗺️{" "}
             <button
@@ -275,22 +275,22 @@ export default function NotesPage() {
         </div>
 
         <p className="mt-5">
-          Vợ chồng em trân trọng kính mời anh/chị tới chung vui. Nhờ anh/chị
-          dành chút thời gian xác nhận thông tin giúp em ạ ❤️
+          Nosotros, los novios, tenemos el honor de invitarlos a compartir nuestra alegría. 
+          Les pedimos amablemente que se tomen un momento para confirmar sus datos y asistencia. ❤️
         </p>
 
         <p className="mt-5">
-          👉 Anh chị {" "}
+          👉 invitado {" "}
           <button
             type="button"
             onClick={() => openLink(HOME)}
             className="underline-offset-2 active:opacity-60"
             style={{ color: LINK }}
           >
-            Xác nhận tham dự
+            Confirmar asistencia
           </button>
           {" "}
-          để tụi em có thể đặt xe và chuẩn bị chu đáo hơn nhé! Cảm ơn anh/chị nhiều lắm ạ!
+          Por favor, confirma tu asistencia para que podamos coordinar el transporte y prepararlo todo con más detalle. ¡Muchas gracias!
         </p>
       </div>
 
