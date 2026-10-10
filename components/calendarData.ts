@@ -15,7 +15,7 @@ export interface CalendarEvent {
 }
 
 export const CALENDAR_WEEKDAY = "CHỦ NHẬT";
-export const CALENDAR_DAY = "14";
+export const CALENDAR_DAY = "11";
 
 /** Full date line shown on the event-detail screen (same day for all events). */
 export const CALENDAR_DATE = "Chủ Nhật, 14/06/2026";
