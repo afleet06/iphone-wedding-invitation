@@ -8,11 +8,9 @@ const SF_ROUNDED =
 
 // Cheesy one-liners that crossfade under the QR. Pure decoration.
 const SWEET_LINES = [
-  "Quẹt nhẹ thôi, tình mình đậm sâu",
-  "Tiền mừng nhỏ nhỏ, thương nhau to to",
-  "Một chút yêu thương gửi cô dâu chú rể",
-  "Mừng cưới đôi trẻ, trăm năm hạnh phúc",
-  "Cảm ơn vì đã thương tụi mình",
+  "Un gesto suave, pero nuestro amor es profundo",
+  "Felicidades a los novios, que sean cien años de felicidad",
+  
 ];
 
 // A few hearts drift up across the dark backdrop. Positions/speeds are fixed so
@@ -99,17 +97,17 @@ export default function WalletPage() {
             {/* Header: pass label + couple. */}
             <div className="relative px-6 pt-6">
               <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-white/85">
-                Ví · Mừng cưới
+               regalo de boda
               </span>
 
               <h1
                 className="mt-3 text-[34px] font-bold leading-none text-white"
                 style={{ fontFamily: SF_ROUNDED, textShadow: "0 1px 8px rgba(0,0,0,0.12)" }}
               >
-                Trí <span className="opacity-90">&amp;</span> Như
+                aby <span className="opacity-90">&amp;</span> paskis
               </h1>
               <p className="mt-1.5 text-[13px] font-semibold text-white/90">
-                14.06.2026 · Hộp lì xì hạnh phúc
+                22.11.2026 · abypaskis
               </p>
             </div>
 
