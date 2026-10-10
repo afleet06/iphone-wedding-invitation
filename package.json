@@ -13,10 +13,10 @@
     "vite",
     "framer-motion"
   ],
-  "homepage": "https://iphone-wedding-invitation.vercel.app",
+  "homepage": "https://iphoneinvitacion.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nguyenhuugiatri/iphone-wedding-invitation.git"
+    "url": "https://"
   },
   "license": "MIT",
   "type": "module",
