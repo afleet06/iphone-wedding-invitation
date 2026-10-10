@@ -26,7 +26,7 @@ export const CALENDAR_NAME = "Cưới";
 
 export const CALENDAR_EVENTS: CalendarEvent[] = [
   {
-    title: "Ceremonia De Boda",
+    title: "Ceremonia-Religiosa",
     time: "14:30–15:00",
     indicatorColor: "#FFC901",
     bgColor: "#FEF9E7",
