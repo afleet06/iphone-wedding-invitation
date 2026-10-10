@@ -214,7 +214,7 @@ export default function SettingsPage() {
         className="px-5 text-[34px] font-bold tracking-tight text-black"
         style={{ paddingTop: "calc(var(--safe-top) + 64px)" }}
       >
-        Cài đặt
+      ajustes
       </h1>
 
       {/* Account row */}
@@ -225,14 +225,14 @@ export default function SettingsPage() {
             className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full text-[28px] font-semibold text-white"
             style={{ background: "linear-gradient(#a5abb9, #858b98)" }}
           >
-            T
+            a
           </div>
           <div className="flex-1">
             <div className="text-[21px] font-semibold leading-tight text-black">
-              Trí
+              paskis
             </div>
             <div className="mt-0.5 text-[14px]" style={{ color: GRAY }}>
-              Apple Account, iCloud+ và mục khác
+              Apple Account, iCloud+ otras secciones
             </div>
           </div>
           <Chevron />
@@ -241,34 +241,34 @@ export default function SettingsPage() {
 
       {/* Connectivity */}
       <Group>
-        <Row icon={<Tile gradient="linear-gradient(#f8b250,#f79407)"><Airplane /></Tile>} label="Chế độ máy bay" toggle />
+        <Row icon={<Tile gradient="linear-gradient(#f8b250,#f79407)"><Airplane /></Tile>} label="modo avion" toggle />
         <Row icon={<Tile gradient="linear-gradient(#489bfd,#2b77f4)"><Wifi /></Tile>} label="Wi-Fi" note="lemdeptry" detail />
         <Row icon={<Tile gradient="linear-gradient(#459cfa,#2d7afc)"><Bluetooth /></Tile>} label="Bluetooth" note="Bật" detail />
-        <Row icon={<Tile gradient="linear-gradient(#6fdc83,#3ec75d)"><Bars /></Tile>} label="Di động" note="Tắt" detail />
-        <Row icon={<Tile gradient="linear-gradient(#6fdc83,#3ec75d)"><Hotspot /></Tile>} label="Điểm truy cập cá nhân" note="Tắt" detail disabled />
+        <Row icon={<Tile gradient="linear-gradient(#6fdc83,#3ec75d)"><Bars /></Tile>} label="red" note="Tắt" detail />
+        <Row icon={<Tile gradient="linear-gradient(#6fdc83,#3ec75d)"><Hotspot /></Tile>} label="punto acceso" note="Tắt" detail disabled />
         <Row icon={<Tile gradient="linear-gradient(#6fdc83,#3ec75d)"><Battery /></Tile>} label="Pin" detail last />
       </Group>
 
       {/* General cluster */}
       <Group>
-        <Row icon={<Tile gradient="linear-gradient(#afafb4,#8e8e93)"><Gear /></Tile>} label="Cài đặt chung" detail />
-        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><Accessibility /></Tile>} label="Trợ năng" detail />
-        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><ActionBtn /></Tile>} label="Nút tác vụ" detail />
+        <Row icon={<Tile gradient="linear-gradient(#afafb4,#8e8e93)"><Gear /></Tile>} label="ajustes generales" detail />
+        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><Accessibility /></Tile>} label="accesibilidad" detail />
+        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><ActionBtn /></Tile>} label="boton de accion" detail />
         <Row icon={<Tile gradient="linear-gradient(#f9a432,#e193fb)"><Sparkle /></Tile>} label="Apple Intelligence & Siri" detail />
         <Row icon={<Tile gradient="linear-gradient(#afafb4,#8e8e93)"><Camera /></Tile>} label="Camera" detail />
-        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><Grid /></Tile>} label="Màn hình chính & Thư viện ứng dụng" detail />
-        <Row icon={<Tile gradient="linear-gradient(#afafb4,#8e8e93)"><Search /></Tile>} label="Tìm kiếm" detail />
+        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><Grid /></Tile>} label="pantalla de inicio" detail />
+        <Row icon={<Tile gradient="linear-gradient(#afafb4,#8e8e93)"><Search /></Tile>} label="buscar" detail />
         <Row icon={<Tile gradient="#000"><Snow /></Tile>} label="StandBy" detail last />
       </Group>
 
       {/* Screen Time */}
       <Group>
-        <Row icon={<Tile gradient="linear-gradient(#887dff,#6055f5)"><Hourglass /></Tile>} label="Thời gian sử dụng" detail last />
+        <Row icon={<Tile gradient="linear-gradient(#887dff,#6055f5)"><Hourglass /></Tile>} label="tiempo de uso" detail last />
       </Group>
 
       {/* Privacy */}
       <Group>
-        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><Hand /></Tile>} label="Quyền riêng tư & Bảo mật" detail last />
+        <Row icon={<Tile gradient="linear-gradient(#43a6ff,#0288ff)"><Hand /></Tile>} label="privacidad y seguridad" detail last />
       </Group>
 
       {/* Footer search bar */}
