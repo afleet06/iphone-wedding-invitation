@@ -14,15 +14,15 @@ export interface CalendarEvent {
   locationAddress: string;
 }
 
-export const CALENDAR_WEEKDAY = "CHỦ NHẬT";
-export const CALENDAR_DAY = "11";
+export const CALENDAR_WEEKDAY = "domingo";
+export const CALENDAR_DAY = "22";
 
 /** Full date line shown on the event-detail screen (same day for all events). */
-export const CALENDAR_DATE = "Chủ Nhật, 14/06/2026";
+export const CALENDAR_DATE = "Domingo, 22/11/2026";
 /** Back-button label — the event's day. */
-export const CALENDAR_BACK_LABEL = "14 thg 6";
+export const CALENDAR_BACK_LABEL = "22Nov";
 /** Name of the calendar these events live in (shown in the "Lịch" row). */
-export const CALENDAR_NAME = "Cưới";
+export const CALENDAR_NAME = "boda";
 
 export const CALENDAR_EVENTS: CalendarEvent[] = [
   {
