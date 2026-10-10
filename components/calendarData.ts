@@ -26,23 +26,23 @@ export const CALENDAR_NAME = "Cưới";
 
 export const CALENDAR_EVENTS: CalendarEvent[] = [
   {
-    title: "Lễ Tân Hôn",
+    title: "Ceremonia De Boda",
     time: "14:30–15:00",
     indicatorColor: "#FFC901",
     bgColor: "#FEF9E7",
     titleColor: "#73531E",
     timeColor: "#C69700",
-    locationName: "Tư gia",
+    locationName: "Las Palmas",
     locationAddress: "",
   },
   {
-    title: "Tiệc cưới",
+    title: "Pachanga",
     time: "17:30–20:30",
     indicatorColor: "#83D654",
     bgColor: "#F3FAEF",
     titleColor: "#426B2A",
     timeColor: "#61A13F",
-    locationName: "AZ Luxury Garden",
-    locationAddress: "123 Tôn Đức Thắng, La Gi, Lâm Đồng",
+    locationName: "Los Llorones",
+    locationAddress: "Salida a Cuauhtémoc",
   },
 ];
