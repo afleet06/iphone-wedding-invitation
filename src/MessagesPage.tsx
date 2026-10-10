@@ -12,12 +12,12 @@ type Entry =
 // "sent" = Trí, "received" = Như. Sample conversation — swap in your own.
 const THREAD: Entry[] = [
   { kind: "date", text: "Hôm nay 9:41" },
-  { kind: "text", side: "received", text: "Anh ơi, thiệp mời xong chưa đó" },
-  { kind: "text", side: "sent", text: "Xong rồi nè, anh làm hẳn cái iPhone luôn" },
-  { kind: "text", side: "received", text: "Trời, ai mà nghĩ ra vậy 😳" },
+  { kind: "text", side: "received", text: "¿Ya terminaste la invitación?" },
+  { kind: "text", side: "sent", text: "¡Felicidades!" },
+  { kind: "text", side: "received", text: "¡Jaja, exacto!  😳" },
   { kind: "image", side: "received", src: "/message.jpeg" },
-  { kind: "text", side: "received", text: "Chốt tượng bánh cưới này nha", tapback: "❤️" },
-  { kind: "text", side: "sent", text: "Dạ vợ iu" },
+  { kind: "text", side: "received", text: "¡Confirmado, esta figura de pastel de boda!", tapback: "❤️" },
+  { kind: "text", side: "sent", text: "arre" },
 ];
 
 // iOS contact monogram: initials on the system gray gradient (no photo).
